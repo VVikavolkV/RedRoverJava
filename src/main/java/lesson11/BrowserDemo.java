@@ -46,16 +46,11 @@ public class BrowserDemo {
             System.out.println("Labels found: " + labels.size());
 
 
-//            for (WebElement label : labels) {
-//                System.out.println(label.getText());
-//            }
+
 
             for (WebElement label : labels) {
-                if (!label.getText().isEmpty()) {
-                    System.out.println(label.getText());
-                }
+                System.out.println(label.getText());
             }
-
 
 
             textBox.clear();
